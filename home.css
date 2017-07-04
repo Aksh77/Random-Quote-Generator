@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+@import url('https://fonts.google.com/specimen/Dancing+Script?selection.family=Dancing+Script');
+
+.heading{
+  margin-top: 3%;
+  text-align: center;
+  font-family: Dancing Script;
+  font-size: 400%;
+  text-shadow: -1px 0 white, 0 -1px white;
+  color: #001a33;
+}
+
+.quote-box{
+  background-color: #001a09;
+  width: 60%;
+  text-align: center;
+  min-height: 300px;
+  border-color: white; 
+  border-style: ridge;
+  border-width: 20px;
+  margin: 3% 20% 2% 20%;
+  padding: 30px 20px 20px 20px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .quote-box{
+    margin: 3% 5% 2% 5%;
+    width: 90%;   
+  }
+}
+
+.quote-text{
+    color: white;
+    font-family: Kalam;
+    font-size: 200%;
+    text-align: center;
+    height:auto;
+    padding-bottom: 7%;
+}
+
+.quote-author{
+    color: white;
+    font-family: Kalam;
+    font-size: 120%;
+    text-align: right;
+  
+}
+
+.base{  
+  margin: 10px 20% 100px 20%;
+  color: white;
+  font-size:100%;
+}
+
+#twitter{
+  color: #001a33;
+  text-shadow: -2px 0 white, 0 -2px white;
+  margin: 0% 2% 2% 2%;
+  float: right;
+}
+
+#twitter:hover {
+  opacity: 0.85;
+}
+
+#new-quote{
+  background-color: #001a33;
+  padding: 0% 2% .5% 2%;
+  margin: 0% 2% 2% 2%;
+  font-size: 150%;
+  font-family: Acme;
+  float: left;
+}
+
+#new-quote:hover {
+  opacity: 0.85;
+}
+
+.footer{
+  padding-top: 5%;
+  text-align: center;
+  font-family: Acme;
+  font-size: 125%;
+  text-shadow: -1px 0 white;
+}
